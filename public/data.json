@@ -35,7 +35,7 @@
         {
             "id": 3,
             "company": "Tesla",
-            "logo": "../src/assets/Logo/tesla-9 1.png",
+            "logo": "./Logo/tesla-9 1.png",
             "position": "Electrical Engineer",
             "location": "Fremont, CA",
             "description": "We are seeking a talented electrical engineer to join our team in designing and developing cutting-edge electric vehicles and energy products. The ideal candidate should have a strong background in electrical engineering and experience with power electronics and control systems.",
@@ -51,7 +51,7 @@
         {
             "id": 4,
             "company": "Meta",
-            "logo": "../src/assets/Logo/meta.png",
+            "logo": "./Logo/meta.png",
             "position": "Machine Learning Engineer",
             "location": "Menlo Park, CA",
             "description": "We are seeking a highly motivated machine learning engineer to work on our cutting-edge AI technologies. The ideal candidate should have a strong background in machine learning, deep learning, and computer vision.",
@@ -67,7 +67,7 @@
         {
             "id": 5,
             "company": "NetFlix",
-            "logo": "../src/assets/Logo/netflix-4 1.png",
+            "logo": "./Logo/netflix-4 1.png",
             "position": "Data Scientist",
             "location": "Redmond, WA",
             "description": "We are seeking a data scientist who is skilled in developing and implementing machine learning algorithms. The ideal candidate should have experience with statistical analysis and data visualization.",
@@ -83,7 +83,7 @@
         {
             "id": 6,
             "company": "Amazon",
-            "logo": "../src/assets/Logo/amazon.png",
+            "logo": "./Logo/580b57fcd9996e24bc43c518.png",
             "position": "Frontend Developer",
             "location": "Seattle, WA",
             "worktime": "Full-time",
@@ -97,7 +97,7 @@
         {
             "id": 7,
             "company": "Apple",
-            "logo": "../src/assets/Logo/apple.png",
+            "logo": "./Logo/apple.png",
             "position": "iOS Developer",
             "location": "Cupertino, CA",
             "description": "We are seeking an iOS developer who is passionate about building mobile applications. The ideal candidate should have experience with Swift and iOS frameworks.",
@@ -113,7 +113,7 @@
         {
             "id": 8,
             "company": "Microsoft",
-            "logo": "../src/assets/Logo/microsoft.png",
+            "logo": "./Logo/microsoft.png",
             "position": "Senior Backend Engineer",
             "location": "San Francisco, CA",
             "description": "We are seeking a senior backend engineer to help us build scalable and reliable systems for our transportation platform. The ideal candidate should have experience with distributed systems and building RESTful APIs.",

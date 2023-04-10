@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className='nav-container'>
             <div className='nav-bar'>
-                <Link to='/' className='text-2xl font-semibold '><span className='font-extrabold text-[#946dff]'>Build</span>Career</Link>
+                <Link to='/' className='text-3xl font-semibold '><span className='font-extrabold text-[#946dff]'>Build</span>Career</Link>
                 <div className='nav-link'>
                     <NavLink to="/" className={({ isActive }) => (isActive ? 'text-[#9872ff]' : 'default')}>Home</NavLink>
                     <NavLink to="/statistics" className={({ isActive }) => (isActive ? 'text-[#9872ff]' : 'default')}>Statistics</NavLink>

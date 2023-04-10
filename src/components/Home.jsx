@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import { useLoaderData } from 'react-router-dom';
 import Category from './Category';
+import SingleJob from './SingleJob';
 
 const Home = () => {
+
+    const { jobs } = useLoaderData()
+
 
     const [categories, setCategories] = useState([])
     useEffect(() => {
@@ -48,7 +53,15 @@ const Home = () => {
             <section className='container mx-auto text-center mb-5'>
                 <h1 className='text-4xl font-semibold'>Featured Jobs</h1>
                 <p className='text-sm  text-slate-500 mt-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                <div>
+                    {
+                        jobs.map(job => <SingleJob job={job} key={job.id}></SingleJob>)
+                    }
+                </div>
             </section>
+
+
+
         </>
     );
 };
