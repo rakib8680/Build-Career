@@ -4,7 +4,6 @@ import Category from './Category';
 const Home = () => {
 
     const [categories, setCategories] = useState([])
-
     useEffect(() => {
         fetch('categories.json')
             .then(res => res.json())
@@ -30,17 +29,25 @@ const Home = () => {
             </div>
 
 
-            {/* category section  */}
-            <section className='my-32 container mx-auto'>
-                <div className='text-center mb-5'>
-                    <h1 className='text-4xl font-semibold'>Job Category List</h1>
-                    <p className='text-sm  text-slate-500 mt-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                    <div className='flex flex-col md:flex-row justify-center items-center gap-6 mt-10'>
-                        {
-                            categories.map(category => <Category category={category} key={category.id}></Category>)
-                        }
-                    </div>
+            {/* .............................category section....................  */}
+            <section className='my-32  container mx-auto text-center '>
+
+                <h1 className='text-4xl font-semibold'>Job Category List</h1>
+                <p className='text-sm  text-slate-500 mt-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                <div className='category-container'>
+                    {
+                        categories.map(category => <Category category={category} key={category.id}></Category>)
+                    }
                 </div>
+
+            </section>
+
+
+
+            {/*............................ featured jobs section...................  */}
+            <section className='container mx-auto text-center mb-5'>
+                <h1 className='text-4xl font-semibold'>Featured Jobs</h1>
+                <p className='text-sm  text-slate-500 mt-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </section>
         </>
     );
