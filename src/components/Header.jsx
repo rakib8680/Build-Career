@@ -1,17 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='bg-gradient-to-r from-[#eef0fc] to-[#f1ecff] h-[80px] flex items-center '>
+        <div className='bg-gradient-to-r from-[#eef0fc] to-[#f1ecff] h-[100px] flex items-center '>
             <div className=' flex justify-around items-center container mx-auto '>
-                <h2 className='text-2xl font-semibold '><span className='font-extrabold'>Build</span>Career</h2>
-                <div className='text-xs font-medium text-slate-500 flex gap-20 '>
-                    <Link to="/statistics">Statistics</Link>
-                    <Link to="/appliedJobs">Applied Jobs</Link>
-                    <Link to="/blog">Blog</Link>
+                <Link to='/' className='text-2xl font-semibold '><span className='font-extrabold text-[#946dff]'>Build</span>Career</Link>
+                <div className='text-xs font-medium text-slate-600 flex gap-20 '>
+                    <NavLink to="/statistics" className={({ isActive }) => (isActive ? 'text-[#9872ff]' : 'default')}>Statistics</NavLink>
+                    <NavLink to="/appliedJobs" className={({ isActive }) => (isActive ? 'text-[#9872ff]' : 'default')}>Applied Jobs</NavLink>
+                    <NavLink to="/blog" className={({ isActive }) => (isActive ? 'text-[#9872ff]' : 'default')}>Blog</NavLink>
                 </div>
-                <button className=' '>Start Applying</button>
+                <button className='bg-gradient-to-r from-[#6f85ff] to-[#916aff] px-3 py-3 text-white font-semibold rounded-md'>Start Applying</button>
             </div>
         </div>
     );
