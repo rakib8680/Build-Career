@@ -7,7 +7,7 @@
 }
 
 .nav-container {
-    @apply bg-gradient-to-r from-[#eef0fc] to-[#f1ecff] md:h-[100px] flex items-center
+    @apply bg-gradient-to-r from-[#f2f3fb] to-[#f7f4ff] md:h-[100px] flex items-center
 }
 
 .nav-bar {
