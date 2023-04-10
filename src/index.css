@@ -2,18 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-.my-btn-primary{
-    @apply bg-gradient-to-r from-[#6f85ff] to-[#916aff] px-3 py-3 text-white font-semibold rounded-md text-sm md:text-base
+.my-btn-primary {
+    @apply bg-gradient-to-r from-[#6f85ff] to-[#916aff] px-4 py-3 text-white font-semibold rounded-md text-sm md:text-base  hover:from-purple-400 hover:to-purple-700 transition-all duration-300
 }
 
-.nav-container{
-    @apply bg-gradient-to-r from-[#eef0fc] to-[#f1ecff] md:h-[100px] flex items-center 
+.nav-container {
+    @apply bg-gradient-to-r from-[#eef0fc] to-[#f1ecff] md:h-[100px] flex items-center
 }
 
-.nav-bar{
-    @apply  md:flex justify-between items-center container mx-auto p-5 md:p-0 mt-2 text-center md:mt-0 space-y-4 md:space-y-0
+.nav-bar {
+    @apply md:flex justify-between items-center container mx-auto p-5 md:p-0 mt-2 text-center md:mt-0 space-y-4 md:space-y-0
 }
 
-.nav-link{
-    @apply text-xs font-medium text-slate-600 flex gap-20 
+.nav-link {
+    @apply text-xs font-medium text-slate-600 flex gap-20
+}
+
+.text-gradient {
+    @apply font-extrabold text-transparent text-5xl md:text-7xl bg-clip-text bg-gradient-to-r from-[#8497ff] to-[#875bff] 
 }
