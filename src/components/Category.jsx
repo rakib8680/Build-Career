@@ -9,7 +9,7 @@ const Category = ({ category }) => {
             <img className=' h-[60px] w-[60px] p-3 bg-[#ede6fe] rounded-md' src={logo} />
             <div className='text-left space-y-1'>
                 <h1 className='text-lg font-semibold text-slate-700'>{name}</h1>
-                <p className='text-xs text-slate-500 '>{available}</p>
+                <p className='text-xs text-slate-400 '>{available}</p>
             </div>
         </div>
     );

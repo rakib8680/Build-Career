@@ -35,7 +35,7 @@ const Home = () => {
                 <div className='text-center mb-5'>
                     <h1 className='text-4xl font-semibold'>Job Category List</h1>
                     <p className='text-sm  text-slate-500 mt-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                    <div className='flex justify-center gap-6 mt-10'>
+                    <div className='flex flex-col md:flex-row justify-center items-center gap-6 mt-10'>
                         {
                             categories.map(category => <Category category={category} key={category.id}></Category>)
                         }
