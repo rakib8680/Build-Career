@@ -13,6 +13,7 @@
                 "Experience with software development tools and practices (e.g. version control, testing, debugging)"
             ],
             "experience": "3-5 years",
+            "type" : "Remote",
             "worktime": "Full-time",
             "salary": "$130,000 - $170,000"
         },
@@ -29,7 +30,8 @@
                 "Proficiency in engineering software tools and technologies (e.g. CAD, FEA, CFD)"
             ],
             "experience": "5-7 years",
-            "worktime": "Full-time",
+            "type" : "Onsite",
+            "worktime": "Part-time",
             "salary": "$120,000 - $160,000"
         },
         {
@@ -45,6 +47,7 @@
                 "Proficiency in electrical design and simulation tools (e.g. Altium, SPICE)"
             ],
             "experience": "2-4 years",
+            "type" : "Remote",
             "worktime": "Full-time",
             "salary": "$100,000 - $140,000"
         },
@@ -61,7 +64,8 @@
                 "Experience with computer vision and image processing (e.g. OpenCV)"
             ],
             "experience": "2-4 years",
-            "worktime": "Full-time",
+            "type" : "Onsite",
+            "worktime": "Part-time",
             "salary": "$150,000 - $180,000"
         },
         {
@@ -77,6 +81,7 @@
                 "Experience with statistical analysis and data visualization tools (e.g. Tableau, Power BI)"
             ],
             "experience": "2-4 years",
+            "type" : "Remote",
             "worktime": "Full-time",
             "salary": "$100,000 - $140,000"
         },
@@ -86,6 +91,7 @@
             "logo": "./Logo/580b57fcd9996e24bc43c518.png",
             "position": "Frontend Developer",
             "location": "Seattle, WA",
+            "type" : "Onsite",
             "worktime": "Full-time",
             "description": "We are looking for a frontend developer who is passionate about creating user-friendly and responsive web applications. The ideal candidate should have experience with React and JavaScript frameworks.",
             "requirements": [
@@ -107,6 +113,7 @@
                 "Experience with mobile development technologies (e.g. Xcode, CocoaPods)"
             ],
             "experience": "2-4 years",
+            "type" : "Remote",
             "worktime": "Full-time",
             "salary": "$160,000 - $200,000"
         },
@@ -124,6 +131,7 @@
                 "Experience building RESTful APIs"
             ],
             "experience": "2-4 years",
+            "type" : "Remote",
             "worktime": "Full-time",
             "salary": "$120,000 - $160,000"
         }

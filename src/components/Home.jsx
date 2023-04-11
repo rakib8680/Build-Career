@@ -53,7 +53,7 @@ const Home = () => {
             <section className='container mx-auto text-center mb-5'>
                 <h1 className='text-4xl font-semibold'>Featured Jobs</h1>
                 <p className='text-sm  text-slate-500 mt-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                <div>
+                <div className='text-left'>
                     {
                         jobs.map(job => <SingleJob job={job} key={job.id}></SingleJob>)
                     }

@@ -2,14 +2,25 @@ import React from 'react';
 
 const SingleJob = ({ job }) => {
 
-    const { logo, company, position, location, salary, id, worktime } = job
+    const { logo, company, position, location, salary, id, worktime,type } = job
 
 
     return (
         <div>
             <img src={logo} />
-            <h1></h1>
-            <p></p>
+            <div>
+                <h1>{position}</h1>
+                <p>{company}</p>
+            </div>
+            <div>
+                <button>{type}</button>
+                <button>{worktime}</button>
+            </div>
+            <div>
+                <p>{location}</p>
+                <p>{salary}</p>
+            </div>
+            <button>View Details</button>
         </div>
     );
 };
