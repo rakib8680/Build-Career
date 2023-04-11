@@ -53,13 +53,14 @@ const Home = () => {
             <section className='container mx-auto text-center mb-5'>
                 <h1 className='text-4xl font-semibold'>Featured Jobs</h1>
                 <p className='text-sm  text-slate-500 mt-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                <div className='text-left'>
+                <div className='grid grid-cols-1 md:grid-cols-2 mt-10 gap-8 p-4 md:p-0'>
                     {
-                        jobs.map(job => <SingleJob job={job} key={job.id}></SingleJob>)
+                        jobs.slice(0, 4).map(job => <SingleJob job={job} key={job.id}></SingleJob>)
                     }
                 </div>
+            <button className='my-btn-primary flex mx-auto mt-16'>See All Jobs</button>
             </section>
-
+            
 
 
         </>

@@ -3,24 +3,24 @@ import React from 'react';
 const SingleJob = ({ job }) => {
 
     const { logo, company, position, location, salary, id, worktime,type } = job
-
+    // w-[120px]
 
     return (
-        <div>
-            <img src={logo} />
-            <div>
-                <h1>{position}</h1>
-                <p>{company}</p>
+        <div className=' mx-auto text-left border p-7 space-y-3 rounded-md md:w-[700px] md:h-[400px] md:relative'>
+            <img className=' w-auto pb-3' src={logo} />
+            <div >
+                <h1 className='text-xl font font-semibold text-slate-600'>{position}</h1>
+                <p className='mt-2 font-semibold text-slate-500'>{company}</p>
             </div>
-            <div>
-                <button>{type}</button>
-                <button>{worktime}</button>
+            <div className='pt-3'>
+                <button className= 'my-btn-secondary mr-3'>{type}</button>
+                <button className='my-btn-secondary'>{worktime}</button>
             </div>
-            <div>
-                <p>{location}</p>
-                <p>{salary}</p>
+            <div className='pb-3 flex gap-6 font-semibold text-slate-500'>
+                <p>Location : {location}</p>
+                <p>Salary : {salary}</p>
             </div>
-            <button>View Details</button>
+            <button className='my-btn-primary md:absolute bottom-5'>View Details</button>
         </div>
     );
 };
