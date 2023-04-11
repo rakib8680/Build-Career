@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SingleJob = ({ job }) => {
 
-    const { logo, company, position, location, salary, id, worktime,type } = job
+    const { logo, company, position, location, salary, id, worktime, type } = job
     // w-[120px]
 
     return (
@@ -13,14 +14,14 @@ const SingleJob = ({ job }) => {
                 <p className='mt-2 font-semibold text-slate-500'>{company}</p>
             </div>
             <div className='pt-3'>
-                <button className= 'my-btn-secondary mr-3'>{type}</button>
+                <button className='my-btn-secondary mr-3'>{type}</button>
                 <button className='my-btn-secondary'>{worktime}</button>
             </div>
             <div className='pb-3 flex gap-6 font-semibold text-slate-500'>
                 <p>Location : {location}</p>
                 <p>Salary : {salary}</p>
             </div>
-            <button className='my-btn-primary md:absolute bottom-5'>View Details</button>
+            <Link to={`/jobDetails/${id}`} className='my-btn-primary md:absolute bottom-5'>View Details</Link>
         </div>
     );
 };
