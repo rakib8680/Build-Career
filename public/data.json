@@ -13,9 +13,19 @@
                 "Experience with software development tools and practices (e.g. version control, testing, debugging)"
             ],
             "experience": "3-5 years",
-            "type" : "Remote",
+            "type": "Remote",
             "worktime": "Full-time",
-            "salary": "$130,000 - $170,000"
+            "salary": "$130,000 - $170,000",
+            "phone": "555-1234",
+            "email": "john.doe@example.com",
+            "responsibilities": [
+                "Design, develop, test, and maintain software",
+                "Collaborate with cross-functional teams",
+                "Continuously learn and stay up-to-date with new technologies",
+                "Contribute to software engineering best practices",
+                "Troubleshoot and debug issues",
+                "Document software specifications and changes"
+            ]
         },
         {
             "id": 2,
@@ -30,9 +40,20 @@
                 "Proficiency in engineering software tools and technologies (e.g. CAD, FEA, CFD)"
             ],
             "experience": "5-7 years",
-            "type" : "Onsite",
+            "type": "Onsite",
             "worktime": "Part-time",
-            "salary": "$120,000 - $160,000"
+            "responsibilities": [
+                "Assist with recruitment, selection, and onboarding",
+                "Administer employee benefits and maintain records",
+                "Provide HR support to employees",
+                "Coordinate employee training and development",
+                "Develop and implement HR policies and procedures",
+                "Conduct performance management activities",
+                "Ensure compliance with employment laws and regulations"
+            ],
+            "salary": "$120,000 - $160,000",
+            "phone": "555-5678",
+            "email": "jane.doe@example.com"
         },
         {
             "id": 3,
@@ -41,15 +62,24 @@
             "position": "Senior Electrical Engineer",
             "location": "Fremont, CA",
             "description": "We are seeking a talented electrical engineer to join our team in designing and developing cutting-edge electric vehicles and energy products. The ideal candidate should have a strong background in electrical engineering and experience with power electronics and control systems.",
+            "responsibilities": [
+                "Assist with recruitment, selection, and onboarding",
+                "Administer employee benefits and maintain records",
+                "Provide HR support to employees",
+                "Coordinate employee training and development",
+                "Develop and implement HR policies and procedures"
+            ],
             "requirements": [
                 "BS/MS/PhD in Electrical Engineering or related field",
                 "Experience with power electronics and control systems (e.g. motor drives, inverters, battery management systems)",
                 "Proficiency in electrical design and simulation tools (e.g. Altium, SPICE)"
             ],
             "experience": "2-4 years",
-            "type" : "Remote",
+            "type": "Remote",
             "worktime": "Full-time",
-            "salary": "$100,000 - $140,000"
+            "salary": "$100,000 - $140,000",
+            "phone": "555-9012",
+            "email": "bob.smith@example.com"
         },
         {
             "id": 4,
@@ -64,9 +94,20 @@
                 "Experience with computer vision and image processing (e.g. OpenCV)"
             ],
             "experience": "2-4 years",
-            "type" : "Onsite",
+            "responsibilities": [
+                "Develop and implement marketing plans",
+                "Manage marketing team",
+                "Analyze market trends",
+                "Collaborate with cross-functional teams",
+                "Manage marketing budget",
+                "Monitor and report campaign effectiveness",
+                "Ensure brand consistency"
+            ],
+            "type": "Onsite",
             "worktime": "Part-time",
-            "salary": "$150,000 - $180,000"
+            "salary": "$150,000 - $180,000",
+            "phone": "555-3456",
+            "email": "alice.jones@example.com"
         },
         {
             "id": 5,
@@ -74,6 +115,12 @@
             "logo": "./Logo/netflix-4 1.png",
             "position": "Data Scientist",
             "location": "Redmond, WA",
+            "responsibilities": [
+                "Develop and implement marketing plans",
+                "Manage marketing team",
+                "Analyze market trends",
+                "Collaborate with cross-functional teams"
+            ],
             "description": "We are seeking a data scientist who is skilled in developing and implementing machine learning algorithms. The ideal candidate should have experience with statistical analysis and data visualization.",
             "requirements": [
                 "BS/MS/PhD in Statistics, Computer Science, or related field",
@@ -81,9 +128,11 @@
                 "Experience with statistical analysis and data visualization tools (e.g. Tableau, Power BI)"
             ],
             "experience": "2-4 years",
-            "type" : "Remote",
+            "type": "Remote",
             "worktime": "Full-time",
-            "salary": "$100,000 - $140,000"
+            "salary": "$100,000 - $140,000",
+            "phone": "555-7890",
+            "email": "frank.wilson@example.com"
         },
         {
             "id": 6,
@@ -91,14 +140,25 @@
             "logo": "./Logo/580b57fcd9996e24bc43c518.png",
             "position": "Frontend Developer",
             "location": "Seattle, WA",
-            "type" : "Onsite",
+            "type": "Onsite",
             "worktime": "Full-time",
+            "responsibilities": [
+                "Analyze market trends",
+                "Collaborate with cross-functional teams",
+                "Manage marketing budget",
+                "Monitor and report campaign effectiveness",
+                "Ensure brand consistency"
+            ],
             "description": "We are looking for a frontend developer who is passionate about creating user-friendly and responsive web applications. The ideal candidate should have experience with React and JavaScript frameworks.",
             "requirements": [
                 "BS/MS/PhD in Computer Science or related field",
                 "Proficiency in React and JavaScript frameworks (e.g. Angular, Vue)",
                 "Experience with web development technologies (e.g. HTML, CSS)"
-            ]
+            ],
+            "phone": "555-2345",
+            "email": "susan.brown@example.com",
+            "experience": "2-4 years",
+            "salary": "$100,000 - $140,000"
         },
         {
             "id": 7,
@@ -107,15 +167,24 @@
             "position": "iOS Developer",
             "location": "Cupertino, CA",
             "description": "We are seeking an iOS developer who is passionate about building mobile applications. The ideal candidate should have experience with Swift and iOS frameworks.",
+            "responsibilities": [
+                "Design, develop, test, and maintain software",
+                "Collaborate with cross-functional teams",
+                "Write clean, efficient, and well-documented code",
+                "Participate in code reviews and testing",
+                "Continuously learn and stay up-to-date with new technologies"
+            ],
             "requirements": [
                 "BS/MS/PhD in Computer Science or related field",
                 "Proficiency in Swift and iOS frameworks (e.g. UIKit, SwiftUI)",
                 "Experience with mobile development technologies (e.g. Xcode, CocoaPods)"
             ],
             "experience": "2-4 years",
-            "type" : "Remote",
+            "type": "Remote",
             "worktime": "Full-time",
-            "salary": "$160,000 - $200,000"
+            "salary": "$160,000 - $200,000",
+            "phone": "555-6789",
+            "email": "sam.green@example.com"
         },
         {
             "id": 8,
@@ -123,6 +192,12 @@
             "logo": "./Logo/microsoft.png",
             "position": "Senior Backend Engineer",
             "location": "San Francisco, CA",
+            "responsibilities": [
+                "Develop and implement marketing plans",
+                "Manage marketing team",
+                "Monitor and report campaign effectiveness",
+                "Ensure brand consistency"
+            ],
             "description": "We are seeking a senior backend engineer to help us build scalable and reliable systems for our transportation platform. The ideal candidate should have experience with distributed systems and building RESTful APIs.",
             "requirements": [
                 "BS/MS/PhD in Computer Science or related field",
@@ -131,9 +206,11 @@
                 "Experience building RESTful APIs"
             ],
             "experience": "2-4 years",
-            "type" : "Remote",
+            "type": "Remote",
             "worktime": "Full-time",
-            "salary": "$120,000 - $160,000"
+            "salary": "$120,000 - $160,000",
+            "phone": "555-0123",
+            "email": "emily.taylor@example.com"
         }
     ]
 }
