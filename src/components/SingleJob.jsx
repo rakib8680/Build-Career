@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 const SingleJob = ({ job }) => {
 
     const { logo, company, position, location, salary, id, worktime, type } = job
-    // w-[120px]
 
     return (
         <div className=' mx-auto text-left border p-7 space-y-3 rounded-md md:w-[700px] md:h-[400px] md:relative'>

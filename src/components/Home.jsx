@@ -15,6 +15,8 @@ const Home = () => {
             .then(categoriesData => setCategories(categoriesData.categories))
     }, [])
 
+    
+
 
     return (
         <>

@@ -36,3 +36,15 @@
 .my-btn-secondary{
     @apply hover:bg-gradient-to-l hover:from-[#8497ff] hover:to-[#875bff] border px-4 py-1 border-violet-400 rounded-sm font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#8497ff] to-[#875bff]  hover:bg-clip-padding hover:text-white transition duration-300
 }
+
+.job-details-title{
+    @apply text-center text-3xl pt-10 pb-24 font-bold bg-gradient-to-r from-[#f2f3fb] to-[#f7f4ff]
+}
+
+.job-details-container{
+    @apply container mx-auto md:flex md:my-36 my-14 justify-center items-center gap-10 md:w-[1400px] p-5 md:p-0
+}
+
+.job-details-card{
+    @apply space-y-5 bg-gradient-to-r from-[#f2f3fb] to-[#f7f4ff] p-6 rounded-md mb-5
+}

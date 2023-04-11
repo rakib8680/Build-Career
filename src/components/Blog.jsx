@@ -3,9 +3,9 @@ import React from 'react';
 const Blog = () => {
     return (
         <div className='container mx-auto mt-10 '>
-            <h1 class=" text-gradient text-center mb-12">Important Questions</h1>
+            <h1 className=" text-gradient text-center mb-12">Important Questions</h1>
             <div>
-                <h1 class="text-3xl font-semibold text-violet-500 p-5 md:p-0">Question 1 :
+                <h1 className="text-3xl font-semibold text-violet-500 p-5 md:p-0">Question 1 :
                     <span className=" text-3xl font-semibold text-slate-700">When should we use Context API ? </span>
                 </h1>
                 <p className="text-violet-500 text-lg p-5 ">Answer: <br />
@@ -15,7 +15,7 @@ const Blog = () => {
                 </p>
             </div>
             <div>
-                <h1 class="text-3xl font-semibold text-violet-500 p-5 md:p-0">Question 2 :
+                <h1 className="text-3xl font-semibold text-violet-500 p-5 md:p-0">Question 2 :
                     <span className=" text-3xl font-semibold text-slate-700">What is custom hook in React ? </span>
                 </h1>
                 <p className="text-violet-500 text-lg p-5 ">Answer: <br />
@@ -25,7 +25,7 @@ const Blog = () => {
                 </p>
             </div>
             <div>
-                <h1 class="text-3xl font-semibold text-violet-500 p-5 md:p-0">Question 3 :
+                <h1 className="text-3xl font-semibold text-violet-500 p-5 md:p-0">Question 3 :
                     <span className=" text-3xl font-semibold text-slate-700">What is useRef in React ? </span>
                 </h1>
                 <p className="text-violet-500 text-lg p-5 ">Answer: <br />
@@ -35,7 +35,7 @@ const Blog = () => {
                 </p>
             </div>
             <div>
-                <h1 class="text-3xl font-semibold text-violet-500 p-5 md:p-0">Question 4 :
+                <h1 className="text-3xl font-semibold text-violet-500 p-5 md:p-0">Question 4 :
                     <span className=" text-3xl font-semibold text-slate-700">What is useMemo in React ? </span>
                 </h1>
                 <p className="text-violet-500 text-lg p-5 ">Answer: <br />
