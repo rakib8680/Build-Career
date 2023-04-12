@@ -24,14 +24,14 @@ const AppliedJobs = () => {
     return (
         <div>
             <h1 className='job-details-title'>Applied Jobs</h1>
-            <div className='mt-32 flex container mx-auto justify-end mb-10'>
+            <div className='mt-32 flex container mx-auto pr-5 md:pr-0 justify-end mb-10'>
 
                 <select name="" id="" className='bg-gradient-to-r from-[#cad0ff] to-[#d7c9ff] p-3 text-purple-800 font-semibold rounded-md'>
                     <option value="Remote">Remote Jobs</option>
                     <option value="Full-time">Onsite Jobs</option>
                 </select>
             </div>
-            <div className='mb-32 container mx-auto '>
+            <div className='mb-32 container mx-auto p-5 md:p-0'>
                 {jobCart.map(appliedJob => <SingleAppliedJob appliedJob={appliedJob} key={appliedJob.id}></SingleAppliedJob>)}
             </div>
         </div>

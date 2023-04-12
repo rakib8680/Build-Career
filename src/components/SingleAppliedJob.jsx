@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const SingleAppliedJob = ({ appliedJob }) => {
     const { id, company, logo, position, type, worktime, location, salary } = appliedJob
     return (
-        <div>
-            <div className=' mx-auto text-left border p-3 space-y-3 rounded-md  mb-5 flex items-center justify-between w-[1000px] shadow-sm'>
-                <div className='flex gap-10'>
-                    <div className='bg-slate-100 flex p-5 rounded-md'>
+        <>
+            <div className=' mx-auto text-left border p-3 space-y-3 rounded-md  mb-5 md:flex items-center justify-between md:w-[1000px] shadow-sm '>
+                <div className='md:flex gap-10'>
+                    <div className='bg-slate-100 flex p-5 rounded-md justify-center'>
                         <img className='w-40 h-10 my-auto' src={logo} />
 
                     </div>
@@ -26,11 +26,11 @@ const SingleAppliedJob = ({ appliedJob }) => {
                         </div>
                     </div>
                 </div>
-                <div className='mr-5'>
+                <div className='mr-5 pb-3 md:pb-0'>
                     <Link to={`/jobDetails/${id}`} className='my-btn-primary '>View Details</Link>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
