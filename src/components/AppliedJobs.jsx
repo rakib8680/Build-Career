@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { getJobCart } from '../fakeDB';
+import SingleAppliedJob from './SingleAppliedJob';
 
 const AppliedJobs = () => {
 
@@ -14,10 +15,17 @@ const AppliedJobs = () => {
         const appliedJobs = jobs?.find(job => job.id === parseInt(id))
         jobCart.push(appliedJobs)
     }
-    console.log(jobCart)
+    // console.log(jobCart)
     return (
         <div>
             <h1 className='job-details-title'>Applied Jobs</h1>
+            <div className='mt-32 flex container mx-auto justify-end mb-10'>
+                <button className='my-btn-secondary mr-3'>Remote Jobs</button>
+                <button className='my-btn-secondary'>Onsite Jobs</button>
+            </div>
+            <div className='mb-32'>
+                {jobCart.map(appliedJob => <SingleAppliedJob appliedJob={appliedJob} key={appliedJob.id}></SingleAppliedJob>)}
+            </div>
         </div>
     );
 };
