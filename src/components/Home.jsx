@@ -13,9 +13,11 @@ const Home = () => {
         fetch('categories.json')
             .then(res => res.json())
             .then(categoriesData => setCategories(categoriesData.categories))
-    }, [])
+    }, []);
+    
 
     
+    // const [showAll , setShowALL] = useState[false]
 
 
     return (
@@ -30,7 +32,7 @@ const Home = () => {
                         <button className='my-btn-primary'>Get Started</button>
                     </div>
                     <div>
-                        <img className='md:w-[700px] md:h-[630px]' src="../../public/All Images/men.png" />
+                        <img className='md:w-[700px] md:h-[630px]' src="https://i.ibb.co/M6qcM4Q/P3-OLGJ1-copy-1.png" />
                     </div>
                 </div>
             </div>
@@ -57,7 +59,7 @@ const Home = () => {
                 <p className='text-sm  text-slate-500 mt-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 <div className='grid grid-cols-1 md:grid-cols-2 mt-10 gap-8 p-4 md:p-0'>
                     {
-                        jobs?.slice(0, 4).map(job => <SingleJob job={job} key={job.id}></SingleJob>)
+                        jobs.length>4 ? jobs?.map(job => <SingleJob job={job} key={job.id}></SingleJob>) : jobs?.slice(0, 4).map(job => <SingleJob job={job} key={job.id}></SingleJob>)
                     }
                 </div>
             <button className='my-btn-primary flex mx-auto mt-16'>See All Jobs</button>

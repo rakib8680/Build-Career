@@ -8,8 +8,6 @@ import {
     YAxis,
     CartesianGrid,
     Tooltip,
-    Legend,
-    ResponsiveContainer,
 } from 'recharts';
 
 const Statistics = () => {
@@ -41,6 +39,7 @@ const Statistics = () => {
                         bottom: 20,
                         left: 20,
                     }}>
+                    <CartesianGrid stroke="violet" />
                     <XAxis dataKey="name"></XAxis>
                     <YAxis></YAxis>
                     <Tooltip />
