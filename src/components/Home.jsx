@@ -14,10 +14,10 @@ const Home = () => {
             .then(res => res.json())
             .then(categoriesData => setCategories(categoriesData.categories))
     }, []);
-    
 
-    
-    // const [showAll , setShowALL] = useState[false]
+
+
+    const [showAll, setShowALL] = useState(false)
 
 
     return (
@@ -59,12 +59,14 @@ const Home = () => {
                 <p className='text-sm  text-slate-500 mt-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 <div className='grid grid-cols-1 md:grid-cols-2 mt-10 gap-8 p-4 md:p-0'>
                     {
-                        jobs.length>4 ? jobs?.map(job => <SingleJob job={job} key={job.id}></SingleJob>) : jobs?.slice(0, 4).map(job => <SingleJob job={job} key={job.id}></SingleJob>)
+                        showAll ? jobs?.map(job => <SingleJob job={job} key={job.id}></SingleJob>) : jobs?.slice(0, 4).map(job => <SingleJob job={job} key={job.id}></SingleJob>)
                     }
                 </div>
-            <button className='my-btn-primary flex mx-auto mt-16'>See All Jobs</button>
+                {
+                    !showAll && <button className='my-btn-primary flex mx-auto mt-16' onClick={() => setShowALL(!showAll)}>See All Jobs</button>
+                }
             </section>
-            
+
 
 
         </>

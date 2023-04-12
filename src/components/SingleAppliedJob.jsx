@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const SingleAppliedJob = ({ appliedJob }) => {
-    console.log(appliedJob)
     const { id, company, logo, position, type, worktime, location, salary } = appliedJob
     return (
         <div>
